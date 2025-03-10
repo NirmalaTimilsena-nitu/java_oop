@@ -22,15 +22,15 @@ class Animal {
 	  public static void main(String[] args) {
 
 	    // create an object of the subclass
-	    Dog labrador = new Dog();
+	    Dog dog = new Dog();
 
 	    // access field of superclass
-	    labrador.name = "Rohu";
-	    labrador.display();
+	    dog.name = "Rohu";
+	    dog.display();
 
 	    // call method of superclass
 	    // using object of subclass
-	    labrador.eat();
+	    dog.eat();
 
 	  }
 	}
