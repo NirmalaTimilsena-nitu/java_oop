@@ -1,12 +1,12 @@
 package inheritance;
 
-class Animal2 {
+class Animal1 {
 	void eat() {
 		System.out.println("eating...");
 	}
 }
 
-class Dog2 extends Animal2 {
+class Dog2 extends Animal1{
 	void bark() {
 		System.out.println("barking...");
 	}
